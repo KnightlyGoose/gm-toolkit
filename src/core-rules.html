@@ -75,77 +75,29 @@
         For opposed rolls, compare the results of <strong>skill-3d6</strong> between the two parties.
     </p>
 
-    <h3>Advantage and Disadvantage</h3>
-    <p>
-        Certain situations may grant Advantage or Disadvantage on a skill check.
-    </p>
-    <p>
-        For each stack of Advantage, roll one additional die and discard the highest result.
-    </p>
+    <h2>Advantage and Disadvantage</h2>
 
-    <p>
-        For each stack of Disadvantage, roll one additional die and discard the lowest result. 
-    </p>
+<p>Advantage and disadvantage are used to represent favorable or unfavorable circumstances.</p>
 
-    <p>
-        After discarding dice, total the remaining three dice as normal. 
-    </p>
+<p>A normal roll uses 3d6.</p>
 
-    <h3>Difficulty</h3>
-    <p>
-        The difficulty of a skill check is measured using Advantage and Disadvantage
-    </p>
+<p>When rolling with advantage, reduce the number of dice rolled by one. A character with one level of advantage rolls 2d6 instead of 3d6.</p>
 
-    <table border="1">
-        <tr>
-            <th>Difficulty</th>
-            <th>Roll</th>
-        </tr>
+<p>When rolling with disadvantage, increase the number of dice rolled by one. A character with one level of disadvantage rolls 4d6 instead of 3d6.</p>
 
-        <tr>
-            <td>Simple</td>
-            <td>No roll required. If multiple sources of advantage would apply, the check is considred simple</td>
-        </tr>
+<p>Advantage and disadvantage may stack. Each additional level of advantage removes one die, while each additional level of disadvantage adds one die.</p>
 
-        <tr>
-            <td>Favorable</td>
-            <td>
-                Roll with Advnatage: 4d6, dropping the highest die
-            </td>
-        </tr>
+<p>If a character would roll fewer than 1d6, the roll is treated as 0d6. A 0d6 roll is considered a result of 0 and is always a critical success.</p>
 
-        <tr>
-            <td>Standard</td>
-            <td>
-                Roll normally: 3d6
-            </td>
-        </tr>
+<p>For example:</p>
 
-        <tr>
-            <td>Difficult</td>
-            <td>
-                Roll with Disadvantage: 4d6, dropping the lowest die
-            </td>
-        </tr>
+<ul> <li>0d6: Automatic critical success</li> <li>1d6: Two levels of advantage</li> <li>2d6: One level of advantage</li> <li>3d6: Normal roll</li> <li>4d6: One level of disadvantage</li> <li>5d6: Two levels of disadvantage</li> </ul>
 
-        <tr>
-            <td>Extreme</td>
-            <td>
-                Roll with two Disadvantages: 5d6, dropping the two lowest dice.
-            </td>
-        </tr>
+<p>If a roll is affected by both advantage and disadvantage, cancel out equal levels of each before rolling.</p>
 
-        <tr>
-            <td>Impossible</td>
-            <td>
-                If three or more sources of Disadvantage would apply, the check is considered Impossible and cannot be attempted.
-            </td>
-        </tr>
+<p>Advantage and disadvantage are most commonly granted by the circumstances of a situation, such as positioning, preparation, environmental conditions, or other factors determined by the Game Master.</p>
 
-        
-    </table>
-
-    <h2>Opposed Checks</h2>
+<h2>Opposed Checks</h2>
 
 <p>
     Regular skill checks are used when a character acts against an inanimate object,
@@ -189,109 +141,13 @@
 
 <h2>Critical Successes and Critical Failures</h2>
 
-<p>
-    Outside of combat, contests, and opposed checks, critical successes and critical
-    failures are automatic successes or automatic failures.
-</p>
+<p>Highly skilled characters are more likely to achieve extraordinary success and less likely to suffer catastrophic failure.</p>
 
-<p>
-    The threshold for a critical success or critical failure is based on the character's skill.
-</p>
+<p>For every 3 full levels in a skill, increase the critical success range by 1 and decrease the critical failure range by 1.</p>
 
-<p>
-    The critical failure threshold is found with the following formula:
-</p>
+<p>A roll within the critical success range is a critical success. A roll within the critical failure range is a critical failure.</p>
 
-<p>
-    <code>min(18, 15 + (skill - 7) / 3)</code>
-</p>
-
-<p>
-    The critical success threshold is found with the following formula:
-</p>
-
-<p>
-    <code>3 + (skill - 7) / 3</code>
-</p>
-
-<p>
-    Specific critical thresholds are shown in the table below.
-</p>
-
-<h3>Critical Success Thresholds</h3>
-
-<table border="1">
-    <tr>
-        <th>Skill</th>
-        <th>Critical Success</th>
-    </tr>
-    <tr>
-        <td>Below 7</td>
-        <td>No critical success possible</td>
-    </tr>
-    <tr>
-        <td>7–9</td>
-        <td>3</td>
-    </tr>
-    <tr>
-        <td>10–12</td>
-        <td>3–4</td>
-    </tr>
-    <tr>
-        <td>13–15</td>
-        <td>3–5</td>
-    </tr>
-    <tr>
-        <td>16+</td>
-        <td>3–6</td>
-    </tr>
-</table>
-
-<h3>Critical Failure Thresholds</h3>
-
-<table border="1">
-    <tr>
-        <th>Skill</th>
-        <th>Critical Failure</th>
-    </tr>
-    <tr>
-        <td>Below 7</td>
-        <td>15+</td>
-    </tr>
-    <tr>
-        <td>7–9</td>
-        <td>16+</td>
-    </tr>
-    <tr>
-        <td>10–12</td>
-        <td>17+</td>
-    </tr>
-    <tr>
-        <td>13+</td>
-        <td>18</td>
-    </tr>
-</table>
-
-<p>
-    Critical success and critical failure thresholds depend on the skill being rolled.
-    Higher skills make critical successes more likely and critical failures less likely.
-</p>
-<h3>Critical Results in Opposed Checks and Contests</h3>
-
-<p>
-    In opposed checks and contests, critical results do not automatically succeed or fail.
-    Instead, they change the final score of the roll.
-</p>
-
-<p>
-    On a critical success, the character's score is equal to their skill.
-</p>
-
-<p>
-    On a critical failure, the character subtracts their roll from their skill as normal,
-    then subtracts one additional die.
-</p>
-
+<table border="1"> <tr> <th>Skill Level</th> <th>Critical Success</th> <th>Critical Failure</th> </tr> <tr> <td>1-3</td> <td>0</td> <td>18</td> </tr> <tr> <td>4-6</td> <td>0-1</td> <td>17-18</td> </tr> <tr> <td>7-9</td> <td>0-2</td> <td>16-18</td> </tr> <tr> <td>10-12</td> <td>0-3</td> <td>15-18</td> </tr> <tr> <td>13-15</td> <td>0-4</td> <td>14-18</td> </tr> <tr> <td>16-18</td> <td>0-5</td> <td>13-18</td> </tr> </table>
 <h2>Core Attributes</h2>
 
 <p>
